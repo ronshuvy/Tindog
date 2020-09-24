@@ -33,11 +33,14 @@ p {
 
 /* Sections */
 
-
 #title {
     color: white;
     background-color: #ff4c68;
     text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -73,14 +76,15 @@ p {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
-    /* position: absolute;
-    right: 30%; */
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features {
     position: relative;
+    background-color: white;
 }
 
 .feature-box {
@@ -89,6 +93,7 @@ p {
 
 .feature-icon {
     color: #ef8172;
+    margin-bottom: 40px;
 }
 
 .feature-icon:hover {
@@ -97,7 +102,6 @@ p {
 
 .feature-title {
     font-size: 1.5rem;
-
 }
 
 /* Testimonial Section */
@@ -127,6 +131,17 @@ p {
 
 /* Pricing */
 
+#pricing {
+    padding: 100px;
+  }
+
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
 .pricing-column {
-    
-}
+    padding: 3% 2%;
+  }
+
+  
